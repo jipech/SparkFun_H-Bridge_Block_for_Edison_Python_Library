@@ -22,6 +22,9 @@ Main file of the library is the file <code>robot.py</code>. Simply it upload on 
 ```
 sudo python example.py
 ```
-There are the six commands in this librarry. Each of the command has one parameter, which means duration of this move.
-
+There are the six commands in this librarry. Each of the command has one parameter, which means duration of this move. The commands are:
+<ul>
+<li><code>forward(time)</code> - move direct
+<li><code>back(time)</code> - move backward
+</ul>
 
