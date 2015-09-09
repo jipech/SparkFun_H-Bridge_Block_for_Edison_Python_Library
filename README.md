@@ -26,5 +26,9 @@ There are the six commands in this librarry. Each of the command has one paramet
 <ul>
 <li><code>forward(time)</code> - move direct
 <li><code>back(time)</code> - move backward
+<li><code>rrotate(time)</code> - rotate right in place
+<li><code>lrotate(time)</code> - rotate left in place
+<li><code>lturn(time)</code> - rotate left with move forward
+<li><code>rturn(time)<code> - rotate right with move forward
 </ul>
 
