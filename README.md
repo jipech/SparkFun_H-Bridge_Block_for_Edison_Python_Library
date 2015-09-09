@@ -18,7 +18,13 @@ I recommend use the Ubilinux distribution (http://www.emutexlabs.com/ubilinux). 
 After installation of the Ubilinux you need install mraa library for Intel Edison which is here: https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison
 
 <h2>Using of the library</h2>
-Main file of the library is the file <code>robot.py</code>. Simply it upload on any location in the Intel Edison. Example of it using is in the file <code>robot.py</code>. It is necessary the run it with root permission:
+Main file of the library is the file <code>robot.py</code>. Simply it upload on any location in the Intel Edison. Example of it using is in the file <code>example.py</code>. It must contain the path to the library:
+```
+import sys
+sys.path.append(r'/path/to/library/')
+```
+
+It is necessary the run your programm with root permission:
 ```
 sudo python example.py
 ```
