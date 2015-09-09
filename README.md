@@ -11,7 +11,7 @@ This is the library for controlling autonomous robot on the Intel Edison base by
 </ul>
 You have to complete it as is shown on the pictures in the manual: https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---dual-h-bridge?_ga=1.228897183.269440423.1434706829 
 In these library is expected, that you connect left motor on the A1 and A2 pins and right motor on the B1 and B2 pins.
-If you wil discover that direction of any motor is wrong then simply change A1 and A2 pin (or B1 and B2).
+If you wil discover that direction of any motor is wrong then simply change wires on the A1 and A2 pin (or B1 and B2).
 
 <h2>Preparation of the Intel Edison</h2>
 I recommend use the Ubilinux distribution (http://www.emutexlabs.com/ubilinux). The guideline for the installations Ubilinux on the Intel Edison is good described here: https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison
