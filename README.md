@@ -19,9 +19,9 @@ After installation of the Ubilinux you need install mraa library for Intel Ediso
 
 <h2>Using of the library</h2>
 Main file of the library is the file <code>robot.py</code>. Simply it upload on any location in the Intel Edison. Example of it using is in the file <code>robot.py</code>. It is necessary the run it with root permission:
-
-'''
+```
 sudo python example.py
-'''
+```
+There are the six commands in this librarry. Each of the command has one parameter, which means duration of this move.
 
 
