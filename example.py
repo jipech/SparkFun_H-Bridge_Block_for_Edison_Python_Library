@@ -14,6 +14,6 @@ lrotate(1)
 back(1)
 rrotate(1)
 back(1)
-rrotate(0.3)
+rrotate(1)
 
 quit()
